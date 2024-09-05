@@ -1,5 +1,5 @@
 mass=10;
 displacement=0;
-k=0.8;
-
-save("vars.mat", "mass", "displacement", "k")
+k=0.5;
+Thrust=20;
+save("vars.mat", "mass", "displacement", "k", "Thrust")
